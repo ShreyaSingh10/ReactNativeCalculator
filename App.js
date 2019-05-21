@@ -4,7 +4,7 @@ import {
   StyleSheet, 
   Text, 
   View,
-  Button
+  TouchableOpacity
 } from 'react-native';
 
 type Props = {};
@@ -27,32 +27,32 @@ export default class App extends Component {
         <View style={styles.buttons}>
           <View style={styles.numbers}>
             <View style={styles.row}>
-              <Button title="0"/>
-              <Button title="0"/>
-              <Button title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
             </View>
             <View style={styles.row}>
-              <Button title="0"/>
-              <Button title="0"/>
-              <Button title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
             </View>
             <View style={styles.row}>
-              <Button title="0"/>
-              <Button title="0"/>
-              <Button title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
             </View>
             <View style={styles.row}>
-              <Button title="0"/>
-              <Button title="0"/>
-              <Button title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
+              <TouchableOpacity title="0"/>
             </View>
           </View>
           <View style={styles.numbers}></View>
           <View style={styles.operations}>
-            <Button title="+"/>
-            <Button title="+"/>
-            <Button title="+"/>
-            <Button title="+"/>
+            <TouchableOpacity title="+"/>
+            <TouchableOpacity title="+"/>
+            <TouchableOpacity title="+"/>
+            <TouchableOpacity title="+"/>
           </View>
         </View>
       </View>
